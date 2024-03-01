@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import Star from "../assets/star.svg";
 
-export default function Stars({ value }) {
+export default function Rating({ value }) {
   const stars = Array(value).fill(Star);
   return (
     <>
